@@ -19,3 +19,8 @@ VALUES
     ('Gloria', 'Uwineza', 'ST058', 'gloria.uwineza@example.com', '2004-09-22', '0739890128', '2026-01-15', NULL),
     ('Henry', 'Nsengiyumva', 'ST059', 'henry.nsengiyumva@example.com', '2002-11-19', '0788901239', '2026-01-15', NULL),
     ('Alice', 'Munyakazi', 'ST060', 'alice.munyakazi@example.com', '2003-01-26', '0798012340', '2026-01-15', NULL);
+
+SELECT *
+FROM students
+WHERE student_id BETWEEN 'ST051' AND 'ST060'
+ORDER BY student_id;

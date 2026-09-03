@@ -6,8 +6,7 @@ INSERT INTO students (
     date_of_birth,
     contact_number,
     enrollment_date,
-    profile_image
-)
+    
 VALUES
     ('William', 'Niyonzima', 'ST051', 'william.niyonzima@example.com', '2002-03-12', '0789123451', '2026-01-15', NULL),
     ('Emma', 'Uwamahoro', 'ST052', 'emma.uwamahoro@example.com', '2003-07-08', '0799234562', '2026-01-15', NULL),
